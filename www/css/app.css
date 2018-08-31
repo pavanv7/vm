@@ -1,0 +1,40 @@
+/* Your app styles here */
+
+/* change defaults */
+.md .list input[type=date],
+.md .list input[type=datetime-local],
+.md .list input[type=email],
+.md .list input[type=number],
+.md .list input[type=password],
+.md .list input[type=search],
+.md .list input[type=tel],
+.md .list input[type=text],
+.md .list input[type=time],
+.md .list input[type=url],
+.md .list select{
+  color: #808080;
+}
+.md .button.button-active, .md .button.button-fill, .md .button.button-fill-md, .md .button.tab-link-active{
+  background-color: #08ae9e;
+}
+.md .item-input-wrap:after{
+	background-color: #c4c4c4;
+	height: 2px;
+}
+.md .input-focused:after, .md .item-input-focused .item-input-wrap:after{
+  background: #08ae9e;
+}
+
+.reg_title{
+  font-weight: 500;
+  color: #808080;
+  margin-top: 28%;
+  margin-bottom: 28%;
+}
+.reg_title.signup{
+  margin-top: 25%;
+  margin-bottom: 20%;
+}
+.md .login-screen-content .opt_page{
+	margin-top: 55%;
+}

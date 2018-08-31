@@ -1,0 +1,32 @@
+/* Your app styles here */
+.ios .tabbar-labels .tab-link:not(.tab-link-active) .icon-ios-fill {
+  display: none;
+}
+.ios .tabbar-labels .tab-link.tab-link-active .icon:not(.icon-ios-fill) {
+  display: none;
+}
+
+/* change defaults */
+.md .list input[type=date],
+.md .list input[type=datetime-local],
+.md .list input[type=email],
+.md .list input[type=number],
+.md .list input[type=password],
+.md .list input[type=search],
+.md .list input[type=tel],
+.md .list input[type=text],
+.md .list input[type=time],
+.md .list input[type=url],
+.md .list select{
+  color: #808080;
+}
+.md .button.button-active, .md .button.button-fill, .md .button.button-fill-md, .md .button.tab-link-active{
+  background-color: #08ae9e;
+}
+
+.reg_title{
+  font-weight: 500;
+  color: #808080;
+  margin-top: 28%;
+  margin-bottom: 28%;
+}
